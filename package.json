@@ -1,8 +1,8 @@
 {
   "name": "jsencrypter",
-  "description": "a plugin for encrypt your javascript scripts",
+  "description": "a plugin for encrypt your javascript code",
   "version": "0.1.0",
-  "homepage": "https://github.com/fuckusername/jsen",
+  "homepage": "https://github.com/fuckusername/jsencrypter",
   "author": {
     "name": "fuckusername",
     "email": "sleepsleepsleep@foxmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fuckusername/jsen.git"
+    "url": "git://github.com/fuckusername/jsencrypter.git"
   },
   "bugs": {
-    "url": "https://github.com/fuckusername/jsen/issues"
+    "url": "https://github.com/fuckusername/jsencrypter/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/fuckusername/jsen/blob/master/LICENSE-MIT"
+      "url": "https://github.com/fuckusername/jsencrypter/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
