@@ -1,24 +1,24 @@
 {
   "name": "jsencrypter",
-  "description": "a plugin for encrypt your javascript code",
-  "version": "0.1.1",
-  "homepage": "https://github.com/fuckusername/jsencrypter",
+  "description": "A npm plugin to encrypt your javascript code and reduce your file size.",
+  "version": "1.1.0",
+  "homepage": "https://github.com/togayther/jsencrypter",
   "author": {
     "name": "fuckusername",
     "email": "sleepsleepsleep@foxmail.com",
-    "url": "http://www.cnblogs.com/mcmurphy"
+    "url": "https://github.com/togayther"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fuckusername/jsencrypter.git"
+    "url": "git://github.com/togayther/jsencrypter.git"
   },
   "bugs": {
-    "url": "https://github.com/fuckusername/jsencrypter/issues"
+    "url": "https://github.com/togayther/jsencrypter/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/fuckusername/jsencrypter/blob/master/LICENSE-MIT"
+      "url": "https://github.com/togayther/jsencrypter/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {

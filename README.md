@@ -1,6 +1,5 @@
-# jsencrypter
-
-> a plugin for encrypt your javascript code
+## jsencrypter
+A npm package to encrypt your javascript code and reduce your file size.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -25,12 +24,14 @@ In your project's Gruntfile, add a section named `jsencrypter` to the data objec
 ```js
 grunt.initConfig({
   jsencrypter: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
+    main: {
+      options: {
+        // Task-specific options go here.
+      },
+      your_target: {
+        // Target-specific file lists and/or options go here.
+      },
+    }
   },
 });
 ```
@@ -56,11 +57,13 @@ A string value that is used to do something else with whatever else.
 ```js
 grunt.initConfig({
   jsencrypter: {
-    options: {},
-    files: {
-      'dest/encrypt.js': ['src/test1.js', 'src/test2.js'],
-    },
-  },
+    main:{
+      options: {},
+      files: {
+        'js/main.encrypt.js': ['js/main.min.js']
+      }
+    }
+  }
 });
 ```
 
@@ -69,19 +72,37 @@ grunt.initConfig({
 ```js
 grunt.initConfig({
   jsencrypter: {
-    options: {
-      separator: ';',
-      banner: '/*your banner text*/\n',
-    },
-    files: {
-      'dest/encrypt.js': ['src/test1.js', 'src/test2.js'],
-    },
-  },
+    main:{
+      options: {
+        separator: ';',
+        banner: '/*your banner text*/\n',
+      },
+      files: {
+        'js/main.encrypt.js': ['js/main.min.js']
+      }
+    }
+  }
 });
 ```
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+or
 
-## Release History
-_(Nothing yet)_
+```js
+grunt.initConfig({
+  jsencrypter: {
+    main:{
+      options: {
+        separator: ';',
+        banner: '/*your banner text*/\n',
+      },
+      src: ['js/main.min.js'],
+      dest : 'js/main.encrypt.js'
+    }
+  }
+});
+```
+
+## Result
+
+![](http://123.56.135.166/resource/img/jsencrypter.png)
+
