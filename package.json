@@ -1,7 +1,7 @@
 {
   "name": "jsencrypter",
   "description": "A npm plugin to encrypt your javascript code and reduce your file size.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/togayther/jsencrypter",
   "author": {
     "name": "fuckusername",
